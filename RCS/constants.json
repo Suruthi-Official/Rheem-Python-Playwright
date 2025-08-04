@@ -1,0 +1,8 @@
+{
+    "APPLICATION_URL": "https://monitoring-qa.rheemconnect.com/",
+    "ROLE":"Property or Facility Manager",
+    "SITE_DETAILS_URL":"https://monitoring-qa.rheemconnect.com/#/rmp/siteDetails",
+    "DEVICE_MANAGEMENT_URL":"https://monitoring-qa.rheemconnect.com/#/rmp/deviceManagement",
+    "ERROR_SEARCH": "No devices available at this organization."
+    
+}

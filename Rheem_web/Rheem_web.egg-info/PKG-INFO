@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: Rheem_web
+Version: 0.1
+Summary: Web automation and browser utilities for Rheem project
+Author: Your Name
+Author-email: your.email@example.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

@@ -1,0 +1,961 @@
+{
+  "qa": {
+    "superadmin": {
+      "username": "rmpsuperadmin@rheem.com",
+      "name": "rmpsuperadmin",
+      "fullName": "rmpsuperadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Super Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },"rheemadmin": {
+      "username": "rmpadmin@rheem.com",
+      "name": "rmpadmin",
+      "fullName": "rmpadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Rheem Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "techadmin": {
+      "username": "tvmtechadmin@rheem.com",
+      "name": "Tech",
+      "fullName": "Admin",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Admin"
+    },
+    "techagent": {
+      "username": "tvmtechagent@rheem.com",
+      "name": "Tech",
+      "fullName": "Agent",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Agent"
+    },
+    "facilitymanager": {
+      "username": "fmadmin.qa1yp@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "macId":"A8-41-F4-18-4A-D5",
+      "WarrantyMacId:":""
+    },
+    "facilityManagerFloorArea": {
+      "username": "fmadminfloorareaaa.qa01@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityManagerChangePassword": {
+      "username": "fmadminpasswordchange.qa@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityViewerChangePassword": {
+      "username": "fmviewer.qa1ad@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityManagerChangePasswordE2E": {
+      "username": "fmadminpasswordchangee2e.qa@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertymanager": {
+      "username": "pmadmin.qa1ad@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "hvacMacId": "TV-HV-AC-OF-00-01"
+    },
+    "propertyManagerChangePassword": {
+      "username": "pmadminpasswordchange.qa@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyViewerChangePassword": {
+      "username": "pmviewer.qa1ad@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "propertyManagerChangePasswordE2E": {
+      "username": "pmadminpasswordchangee2e.qa@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "contractoradmin": {
+      "username": "radmin.1800",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin",
+      "password": "RMPUAT2024",
+      "analyticsMacId": "48-E7-DA-F8-DC-E5",
+      "avatar": "JD",
+      "role": "Admin",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractoradmincpr": {
+      "username": "radmin.cpr",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin",
+      "password": "RMPUAT2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractoradminpasswordchange": {
+      "username": "contractor.admin.passwordchange",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "contractorviewer": {
+      "username": "radmin.1800",
+      "name": "Contractor",
+      "fullName": "Rheem Admin",
+      "password": "Rheem@2024",
+      "avatar": "RA",
+      "role": "Viewer"
+    },
+    "contractorviewercpr": {
+      "username": "viewer.cpr",
+      "name": "Contractor",
+      "fullName": "Contractor Viewer",
+      "password": "Rheem@2024",
+      "avatar": "CV",
+      "role": "Viewer"
+    },
+    "contractorviewerpasswordchange": {
+      "username": "contractor.viewer.passwordchange",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "contractoradmin1800": {
+      "username": "1800heaters4@yopmail.com",
+      "name": "TVM C User",
+      "fullName": "TVM C Use",
+      "password": "Rheem@2025!",
+      "avatar": "JD",
+      "role": "Admin",
+      "1800macId": "90-E8-68-BA-3F-85"
+    },
+    "clearblade": {
+      "baseUri": "https://rheem-ia-qa-cluster.clearblade.com",
+      "username": "superadminrm@rheem.com",
+      "password": "Rheem@123",
+      "systemKey": "9e99f6dd0ccaa5b3c3d8f7aad49801",
+      "systemSecret": "9E99F6DD0C96EC9FA3B6C7FD92BF01"
+    },
+    "myRheem": {
+      "baseUri": "https://iat-auth.myrheem.com",
+      "baseUriResource": "https://iat-resource.myrheem.com",
+      "username": "RheemConnectAdmin",
+      "password": "Rheem2024!",
+      "redirectUrl": "https://iat-resource.myrheem.com/",
+      "clientId": "b6a300a1-ead0-4d90-9ff3-be31d26d622d.apps.rheemapi.com",
+      "clientSecret": "OTFjNDdjM2MtYzBjNi00N2I2LWEyMDgtYmQzOTNlOGVkNjNi"
+    },
+    "mongoDb": {
+      "baseUri": "https://us-east-2.aws.data.mongodb-api.com",
+      "apiKey": "1jh06QuhOg1g9wpLS1qEE1K2X3LMtfnZKaX33ljXCnC2BLGN8WZQ77kRpl6pZkyW",
+      "dataSource": "rheemconnectDevTest",
+      "database": "Res_RMP_QA"
+    },
+    "heatPumpWaterHeaterGen1": {
+      "broker": "tcp://rheemdev.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOi0xLCJpYXQiOjE3NDc3MjQwNzYsInNpZCI6ImNhYWE4NmE5LWUxODUtNDdhMS1hOWU2LTM5N2M1MWE2MzIyOCIsInNrIjoiZmU5ODk1YmEwYzljYjM5M2YyODBmN2E3Y2Y2NyIsInR0IjoxLCJ1aWQiOiJmZTk4OTViYTBjOWNiMzkzZjI4MGY3YTdjZjY3IDo6IDIyMzA5MTUzOTM4NzQ0NTUzIiwidXQiOjN9.UPDeY8kqkOqDUWLUV5cDQ_0oLY32c18SXcTIvsMO6k8",
+      "password": "fe9895ba0c9cb393f280f7a7cf67",
+      "deviceMac": "54-27-1E-71-90-56",
+      "deviceSerial": "N021400852",
+      "deviceBase": "321",
+      "softwareVersion": "WH-HPWH-UA-01-04"
+    },
+    "heatpumpWaterHeaterGen4": {
+      "broker": "tcp://rheemstaging.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOi0xLCJpYXQiOjE3NDY2MjcyMzgsInNpZCI6ImVkYzFiZGM4LTk2ZmMtNDliZi1iOTE0LTM4NjI0ODVkMWEzNyIsInNrIjoiY2VmNGVhYzgwYmRjZDhhY2ZkOTQ4YWMxYjA0ZiIsInR0IjoxLCJ1aWQiOiJjZWY0ZWFjODBiZGNkOGFjZmQ5NDhhYzFiMDRmIDo6IDAxNTYzODkwNzY3MTk4NDcyNSIsInV0IjozfQ.L3dNnCEs6u_n2JM8zgQeshkj4cJK4pmrTlnsON1xrI4",
+      "password": "cef4eac80bdcd8acfd948ac1b04f",
+      "deviceMac": "BB-BB-BB-BB-00-00",
+      "deviceSerial": "BB-BB-BB-BB-00-00-00-00-03",
+      "deviceBase": "4096",
+      "softwareVersion": "WH-HPW4-H3-01-27"
+    },
+    "heatpumpWaterHeaterGen5": {
+      "broker": "tcp://rheemdev.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOi0xLCJpYXQiOjE3NDcwNjA2MDcsInNpZCI6IjVmNmQ0OWE0LWYxMGEtNDllYi1iZjg2LTk4NjY5MzYyOTgzYSIsInNrIjoiZmU5ODk1YmEwYzljYjM5M2YyODBmN2E3Y2Y2NyIsInR0IjoxLCJ1aWQiOiJmZTk4OTViYTBjOWNiMzkzZjI4MGY3YTdjZjY3IDo6IDE2NDAxMTM1MTYxMTgyMTU3IiwidXQiOjN9.9IlLk6DR6_2u6NgA4f4Vi0vxR9kQtW4_L4eLBynUoFI",
+      "password": "fe9895ba0c9cb393f280f7a7cf67",
+      "deviceMac": "2C-3B-70-A3-1E-BD",
+      "deviceSerial": "0a-19-16-0c-13-14-01-77-01",
+      "deviceBase": "4736",
+      "softwareVersion": "WH-HPW5-H6-01-04"
+    }, "econetControlCenterHvac": {
+      "broker": "tcp://rheemdev.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOi0xLCJpYXQiOjE3NDcwNjA2MDcsInNpZCI6IjVmNmQ0OWE0LWYxMGEtNDllYi1iZjg2LTk4NjY5MzYyOTgzYSIsInNrIjoiZmU5ODk1YmEwYzljYjM5M2YyODBmN2E3Y2Y2NyIsInR0IjoxLCJ1aWQiOiJmZTk4OTViYTBjOWNiMzkzZjI4MGY3YTdjZjY3IDo6IDE2NDAxMTM1MTYxMTgyMTU3IiwidXQiOjN9.9IlLk6DR6_2u6NgA4f4Vi0vxR9kQtW4_L4eLBynUoFI",
+      "password": "fe9895ba0c9cb393f280f7a7cf67",
+      "deviceMac": "A8-41-F4-18-4A-D5",
+      "deviceSerial": "09-0d-16-16-11-19-52-21-01",
+      "deviceBase": "896",
+      "softwareVersion": "AC-RHUI-03-03-04",
+      "oduMac": "A8-41-F4-18-4A-D5",
+      "oduSerial": "04-18-18-03-08-33-95-02-01",
+      "oduBase": "1024",
+      "oduSoftwareVersion": "AC-UNIO-00-01-14",
+      "wifiMac": "A8-41-F4-18-4A-D5",
+      "wifiSerial": "57-46-a8-41-f4-18-4a-d5-01",
+      "wifiBase": "832",
+      "wifiSoftwareVersion": "RH-WIFI-05-00-15",
+      "airMac": "A8-41-F4-18-4A-D5",
+      "airSerial": "04-01-17-12-36-35-19-2a-01",
+      "airBase": "960",
+      "airSoftwareVersion": "AC-AIR2-00-01-13"
+    },
+    "url": "https://iat-my.rheem.com/",
+    "urlDirectLogin": "https://monitoring-qa.rheemconnect.com/",
+    "resWaterTitle": "Res Water",
+    "role": "Property or Facility Manage"
+  },
+  "staging": {
+    "rtu": {
+      "macID": "00-A0-3D-05-C1-02"
+    },
+    "superadmin": {
+      "username": "rmpsuperadmin@rheem.com",
+      "name": "rmpsuperadmin",
+      "fullName": "rmpsuperadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Super Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "rheemadmin": {
+      "username": "rmpadmin@rheem.com",
+      "name": "rmpadmin",
+      "fullName": "rmpadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },"rheemadminuser": {
+      "username": "rmpadmin@rheem.com",
+      "name": "rmpadmin",
+      "fullName": "rmpadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Rheem Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "distributorAdmin": {
+      "username": "distadminpnstaging1@yopmail.com",
+      "name": "df",
+      "fullName": "df dl",
+      "password": "Rheem@2025!",
+      "avatar": "dd",
+      "role": "Admin"
+    },
+    "techadmin": {
+      "username": "tvmtechadmin@rheem.com",
+      "name": "Tech",
+      "fullName": "Tech Admin",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Admin"
+    },
+    "techagent": {
+      "username": "tvmtechagent@rheem.com",
+      "name": "Tech",
+      "fullName": "Tech Agent",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Agent"
+    },
+    "contractoradmin": {
+      "username": "radmin.1800",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin",
+      "password": "RMPUAT2024",
+      "avatar": "RA",
+      "role": "Viewer",
+      "analyticsMacId": "14-D4-24-BC-19-21",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractoradminarp": {
+      "username": "radmin.arp",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin Support",
+      "password": "RMPUAT2024",
+      "avatar": "RAS",
+      "role": "Admin",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractoradmincpr": {
+      "username": "radmin.cpr",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin Support",
+      "password": "RMPUAT2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractorviewer": {
+      "username": "viewer.1800",
+      "name": "Contractor",
+      "fullName": "Contractor Viewer",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "contractorviewercpr": {
+      "username": "viewer.cpr",
+      "name": "Contractor",
+      "fullName": "Contractor Viewer",
+      "password": "Rheem@2024",
+      "avatar": "CV",
+      "role": "Viewer"
+    },
+    "contractoradminpasswordchange": {
+      "username": "contractor.admin.passwordchange",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "contractorviewerpasswordchange": {
+      "username": "contractor.viewer.passwordchange",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "contractoradmin1800": {
+      "username": "1800heaters4@yopmail.com",
+      "name": "TVM C User",
+      "fullName": "TVM C Use",
+      "password": "Rheem@2025!",
+      "avatar": "JD",
+      "role": "Admin",
+      "1800macId": "90-E8-68-BA-3F-85"
+    },
+    "tenantAdmin": {
+      "username": "radmin.arp",
+      "name": "Tenant",
+      "fullName": "Tenant Admin",
+      "password": "RMPUAT2024",
+      "avatar": "TA",
+      "role": "Admin"
+
+    },
+    "facilitymanager": {
+      "username": "fmadmin.staging3wy@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "loginRole" : "Property or Facility Manager",
+      "macId":"A8-41-F4-18-4A-D5"
+    },
+    "facilitymanagerRTUDevice": {
+
+      "username": "fmadmin.staging1wy@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "WarrantyMacId": "10-68-38-43-B7-DD",
+      "ExpiredMacId": "A8-41-F4-18-4A-D5"
+    },
+    "facilityManagerFloorArea": {
+      "username": "fmadminfloorarea.staging@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityManagerChangePassword": {
+      "username": "fmadminpasswordchange.staging@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityViewerChangePassword": {
+
+      "username": "fmviewer.staging2wy@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+
+    },
+    "facilityViewer": {
+      "username": "fmviewer.staging1ad@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer",
+      "WarrantyMacId": "10-68-38-43-B7-DD",
+      "ExpiredMacId": "A8-41-F4-18-4A-D5"
+
+    },
+    "facilityManagerChangePasswordE2E": {
+      "username": "fmadminpasswordchangee2e.staging@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertymanager": {
+      "username": "pmadmin.staging1WY@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin",
+      "WarrantyMacId": "10-68-38-43-B7-DD",
+      "ExpiredMacId": "A8-41-F4-18-4A-D5"
+    },
+    "propertymanagerCTA": {
+      "username": "pmadmin.staging1AO@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyManagerChangePassword": {
+      "username": "pmadminpasswordchange.staging@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyViewerChangePassword": {
+      "username": "pmviewer.staging1WY@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+
+    },
+    "propertyViewer": {
+      "username": "pmviewer.staging1Test@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer",
+      "WarrantyMacId": "10-68-38-43-B7-DD",
+      "ExpiredMacId": "A8-41-F4-18-4A-D5"
+
+    },
+    "propertyManagerChangePasswordE2E": {
+      "username": "pmadminpasswordchangee2e.staging@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "clearblade": {
+      "baseUri": "https://rheem-ia-staging-cluster.clearblade.com",
+      "username": "superadminres@rheem.com",
+      "password": "Rheem@123",
+      "systemKey": "c285a0df0c84e287fd9aedc48eee01",
+      "systemSecret": "C285A0DF0C9CBD85E0ACDBB5B7E301"
+    },
+    "myRheem": {
+      "baseUri": "https://iat-auth.myrheem.com",
+      "baseUriResource": "https://iat-resource.myrheem.com",
+      "username": "RheemConnectAdmin",
+      "password": "Rheem2024!",
+      "redirectUrl": "https://iat-resource.myrheem.com/",
+      "clientId": "b6a300a1-ead0-4d90-9ff3-be31d26d622d.apps.rheemapi.com",
+      "clientSecret": "OTFjNDdjM2MtYzBjNi00N2I2LWEyMDgtYmQzOTNlOGVkNjNi"
+    },
+    "mongoDb": {
+      "baseUri": "https://us-east-2.aws.data.mongodb-api.com",
+      "apiKey": "QjjNv4J1gRiJiYRLy9DSxWewcIdj8h6eykvr7w1EvkL5HXdAT2HA5Wi3Jw7iieNJ",
+      "dataSource": "rheemconnectStaging",
+      "database": "staging"
+    },
+    "heatPumpWaterHeaterGen1": {
+      "broker": "tcp://rheemstaging.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkNGQ1OTVmYTBiODBlZGUzYmQ4NGFjY2VlODhkMDEiLCJzaWQiOiJkOTc1MDgxMi0wN2JiLTQzMGUtYmI2Ny05MGQ5OTk3NGI0OGYiLCJ1dCI6MSwidHQiOjEsImV4cCI6LTEsImlhdCI6MTY3MDQzNTYwM30.CIZ4Q55Eck1mMVMLLk3hl0is2LSG-OJrhTCm1A7DylU",
+      "password": "cef4eac80bdcd8acfd948ac1b04f",
+      "deviceMac": "54-27-1E-71-90-56",
+      "deviceSerial": "N021400852",
+      "deviceBase": "321",
+      "softwareVersion": "WH-HPWH-UA-01-04"
+    },
+    "heatpumpWaterHeaterGen5": {
+      "broker": "tcp://rheemstaging.clearblade.com:1883",
+      "username": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkNGQ1OTVmYTBiODBlZGUzYmQ4NGFjY2VlODhkMDEiLCJzaWQiOiJkOTc1MDgxMi0wN2JiLTQzMGUtYmI2Ny05MGQ5OTk3NGI0OGYiLCJ1dCI6MSwidHQiOjEsImV4cCI6LTEsImlhdCI6MTY3MDQzNTYwM30.CIZ4Q55Eck1mMVMLLk3hl0is2LSG-OJrhTCm1A7DylU",
+      "password": "cef4eac80bdcd8acfd948ac1b04f",
+      "deviceMac": "2C-3B-70-A3-1E-BD",
+      "deviceSerial": "0a-19-16-0c-13-14-01-77-01",
+      "deviceBase": "4736",
+      "softwareVersion": "WH-HPW5-H6-01-04"
+    },
+    "url": "https://iat-my.rheem.com/",
+    "urlDirectLogin": "https://monitoring-staging.rheemconnect.com/",
+    "macId": "B4-8C-9D-EE-E9-9B",
+    "zipCode": "72905"
+  },
+  "preprod": {
+    "superadmin": {
+      "username": "rmpsuperadmin@rheem.com",
+      "name": "rmpsuperadmin",
+      "fullName": "rmpsuperadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Super Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "rheemadmin": {
+      "username": "rmpadmin@rheem.com",
+      "name": "rmpadmin",
+      "fullName": "rmpadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Rheem Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "techadmin": {
+      "username": "tvmtechadmin@rheem.com",
+      "name": "Tech",
+      "fullName": "Admin",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Admin"
+    },
+    "techagent": {
+      "username": "tvmtechagent@rheem.com",
+      "name": "Tech",
+      "fullName": "Agent",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Agent"
+    },
+    "contractoradmin": {
+      "username": "radmin.1800",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin",
+      "password": "RMPUAT2024",
+      "avatar": "RA",
+      "role": "Viewer",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractoradmincpr": {
+      "username": "radmin.cpr",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin Support",
+      "password": "RMPUAT2024",
+      "avatar": "RAS",
+      "role": "Admin",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "contractorviewer": {
+      "username": "viewer.1800",
+      "email": "viewer.1800@mailinator.com",
+      "name": "Contractor",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "contractorviewercpr": {
+      "username": "viewer.cpr",
+      "name": "Contractor",
+      "email": "viewer.cpr@mailinator.com",
+      "fullName": "Jon Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "contractoradminpasswordchange": {
+      "username": "contractor.admin.passwordchange",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "contractorviewerpasswordchange": {
+      "username": "contractor.viewer.passwordchange",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilitymanager": {
+
+      "username": "fmadmin.preprod.automation1hv@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityviewer": {
+      "username": "fmviewer.preprod1FY@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityManagerFloorArea": {
+      "username": "fmadminfloorarea.preprod1UQ@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Facility Manager"
+    },
+    "facilityManagerChangePassword": {
+      "username": "fmadminpasswordchange.preprod1UQ@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "facilityViewerChangePassword": {
+      "username": "fmviewer.preprod.automation1hv@yopmail.com",
+      "name": "John",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityManagerChangePasswordE2E": {
+      "username": "fmadminpasswordchangee2e.preprod1UQ@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Facility Manager"
+    },
+    "facilityViewerChangePasswordE2E": {
+      "username": "fmviewerpasswordchangee2e.preprod1UQ@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityManagerFooter": {
+      "username": "fmpreprod@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2025!",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityViewerFooter": {
+      "username": "fmviewer@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2025!",
+      "avatar": "JD",
+      "role": "Viewer"
+  },
+  "superAdminFooter": {
+    "username": "rmpsuperadmin@rheem.com",
+    "name": "Jane",
+    "fullName": "Jane Doe",
+    "password": "Rheem@2024!",
+    "avatar": "JD",
+    "role": "Viewer"
+  },
+    "propertymanager": {
+      "username": "pmadmin.preprod.automation1hv@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyviewer": {
+      "username": "pmviewer.preprod1FY@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "propertyManagerChangePassword": {
+      "username": "pmadminpasswordchange.preprod1UQ@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyViewerChangePassword": {
+      "username": "pmviewer.preprod.automation1HV@yopmail.com",
+      "name": "John",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "propertyManagerTermsConditions": {
+      "username": "pmadmin.preprod3JQ@yopmail.com",
+      "name": "John",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "facilityManagerTermsConditions": {
+      "username": "fmadmin.staging2AO@yopmail.com",
+      "name": "John",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "distributorAdmin": {
+      "username": "testdistributoradmin1@yopmail.com",
+      "name": "df",
+      "fullName": "df dl",
+      "password": "Rheem@2025!",
+      "avatar": "dd",
+      "role": "Admin"
+    },
+    "distributorAdminJohnstone": {
+      "username": "johnstonesupplydistributoradmin",
+      "name": "dist",
+      "fullName": "dist adm",
+      "password": "Rheem@2025!",
+      "avatar": "da",
+      "role": "Admin"
+    },
+    "tenantAdmin": {
+      "username": "cpr.tenantadmin@yopmail.com",
+      "name": "Tenant",
+      "fullName": "Tenant Admin",
+      "password": "Rheem@2025!",
+      "avatar": "TA",
+      "role": "Admin"
+
+    },
+    "propertyManagerChangePasswordE2E": {
+      "username": "pmadminpasswordchangee2e.preprod1UQ@yopmail.com",
+      "name": "John",
+      "fullName": "John Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Admin"
+    },
+    "propertyViewerChangePasswordE2E": {
+      "username": "pmviewerpasswordchangee2e.preprod1UQ@yopmail.com",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "Rheem@2024",
+      "avatar": "JD",
+      "role": "Viewer"
+    },
+    "clearblade": {
+      "baseUri": "https://rheem-ia-pre-prod.clearblade.com",
+      "username": "superadminres@rheem.com",
+      "password": "Rheem@123",
+      "systemKey": "f2f1fbc70cacd998c5a7e4e0a79501",
+      "systemSecret": "F2F1FBC70C8C8E9185A8FB96FE64"
+    },
+    "myRheem": {
+      "baseUri": "https://iat-auth.myrheem.com",
+      "baseUriResource": "https://iat-resource.myrheem.com",
+      "username": "RheemConnectAdmin",
+      "password": "Rheem2024!",
+      "redirectUrl": "https://iat-resource.myrheem.com/",
+      "clientId": "DBFB7551-A4DB-49B0-8A1D-088164A3DE52.apps.rheemapi.com",
+      "clientSecret": "OTFjNDdjM2MtYzBjNi00N2I2LWEyMDgtYmQzOTNlOGVkNjNi"
+    },
+    "contractoradmin1": {
+      "username": "radmin.cpr",
+      "name": "Jane",
+      "fullName": "Jane Doe",
+      "password": "RMPUAT2024",
+      "avatar": "JD",
+      "role": "Contractor"
+    },
+    "API": {
+      "facility_manager": {
+        "username": "fmadmin.preprod2JQ@yopmail.com",
+        "password": "Rheem@2024",
+        "role": "property_facility_manager",
+        "email": "fmadmin.preprod1PB@yopmail.com"
+      },
+      "property_manager": {
+        "username": "pmadmin.preprod2JQ@yopmail.com",
+        "password": "Rheem@2024",
+        "role": "property_facility_manager",
+        "email": "pmadmin.preprod2PB@yopmail.com"
+      },
+      "rheem_contractor": {
+        "username": "radmin.cpr",
+        "password": "RMPUAT2024",
+        "role": "rheem_contractor_distributor",
+        "email": "radmin.cpr@mailinator.com"
+      },
+      "rheem_admin": {
+        "username": "rmpadmin@rheem.com",
+        "password": "Rheem@2024!",
+        "role": "rheem_employee",
+        "email": "rmpadmin@rheem.com"
+      },
+      "FAQ": {
+        "message1": ""
+      }
+
+    },
+    "url": "https://iat-my.rheem.com/",
+    "urlDirectLogin": "https://monitoring-preprod.rheemconnect.com/",
+    "resWaterTitle": "Residential Water",
+    "macId": "EC-2E-98-1B-B6-5B",
+    "zipCode": "30076"
+  },
+  "prod": {
+    "rheemadmin": {
+      "username": "rmpadmin@rheem.com",
+      "name": "rmpadmin",
+      "fullName": "rmpadmin Test",
+      "password": "Rheem@2024!",
+      "avatar": "rT",
+      "role": "Rheem Admin",
+      "credentials": {
+        "password": "supersecret",
+        "token": "abc123"
+      }
+    },
+    "techadmin": {
+      "username": "tvmtechadmin@rheem.com",
+      "name": "Tech",
+      "fullName": "Admin",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Admin"
+    },
+    "techagent": {
+      "username": "tvmtechagent@rheem.com",
+      "name": "Tech",
+      "fullName": "Agent",
+      "password": "!Rheem@2025!",
+      "avatar": "TA",
+      "role": "Technical Support Agent"
+    },
+    "contractoradmin": {
+      "username": "radmin.1800",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin",
+      "password": "RMPUAT2024",
+      "avatar": "RA",
+      "role": "Viewer",
+      "credentials": {
+        "password": "RMPUAT2024",
+        "token": "abc123"
+      }
+    },
+    "facilitymanager": {
+      "username": "francisco.rignanese.alfaro@ey.com",
+      "name": "Francisco",
+      "fullName": "Francisco Rignanese",
+      "password": "Rheem@2024",
+      "avatar": "FR",
+      "role": "Admin"
+    },
+    "propertymanager": {
+      "username": "faizan.f.akhter@ey.com",
+      "name": "Rheem Admin",
+      "fullName": "Rheem Admin Support",
+      "password": "Rheem@2024",
+      "avatar": "RAS",
+      "role": "Admin"
+    },
+    "url": "https://iat-my.rheem.com/",
+    "urlDirectLogin": "https://monitoring.rheemconnect.com/"
+  }
+}

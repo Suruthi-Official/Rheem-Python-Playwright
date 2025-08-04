@@ -1,0 +1,13 @@
+LoginPage:
+  page:
+    value: https://monitoring-qa.rheemconnect.com/
+  selectRole:
+    xpath: //div[@id='mui-component-select-role']
+  selectRoledropdown:
+    xpath: //li[@data-value='property_facility_manager']
+  usernameInput:
+    name: email
+  passwordInput:
+    name: password
+  loginButton:
+    xpath: //button[@type='submit']
